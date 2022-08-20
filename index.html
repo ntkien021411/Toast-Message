@@ -1,0 +1,100 @@
+<!DOCTYPE html> <!--Khai báo DOCTYPE HTML-->
+
+<!--CTRL + S : lưu file-->
+<!--1 file HTML thì chỉ có 1 thẻ HTML -->
+<!--1 thẻ HTML gồm 1 thẻ head và 1 thẻ body-->
+<html>
+    <!-- ctrl + / : thì ra được chú thích  -->
+    
+        <!--Phần Đầu -->
+    <head>
+        <title>Responsive</title> <!--Tiêu đề của web F8-Course-->
+        <meta charset="utf-8"> <!-- Hỗ trợ hiện thị tiếng việt cho website-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="./main.css">
+    </head>
+ 
+    <body>
+
+        <div id = toast>
+            <!-- Success -->
+            <!-- <div class="toast toast--success">
+                 <div class="toast_icon">
+                    <i class="fas fa-check-circle"></i>
+                 </div>
+
+                 <div class="toast_body">
+                     <h3 class="toast_title">Success</h3>
+                     <p class="toast_msg">Máy vi tính kết nối internet(Windows,Ubuntu hoặc MacOS)</p>
+                 </div>
+
+                 <div class="toast_close">
+                    <i class = "fas fa-times"></i>
+                 </div>
+            </div> -->
+            <!-- Info -->
+            <!-- <div class="toast toast--info">
+                <div class="toast_icon">
+                   <i class="fas fa-check-circle"></i>
+                </div>
+
+                <div class="toast_body">
+                    <h3 class="toast_title">Info</h3>
+                    <p class="toast_msg">Máy vi tính kết nối internet(Windows,Ubuntu hoặc MacOS)</p>
+                </div>
+
+                <div class="toast_close">
+                   <i class = "fas fa-times"></i>
+                </div>
+           </div> -->
+            <!-- Warning -->
+            <!-- <div class="toast toast--warning">
+                <div class="toast_icon">
+                   <i class="fas fa-check-circle"></i>
+                </div>
+
+                <div class="toast_body">
+                    <h3 class="toast_title">Warning</h3>
+                    <p class="toast_msg">Máy vi tính kết nối internet(Windows,Ubuntu hoặc MacOS)</p>
+                </div>
+
+                <div class="toast_close">
+                   <i class = "fas fa-times"></i>
+                </div>
+           </div> -->
+            <!-- Error -->
+            <!-- <div class="toast toast--error">
+                <div class="toast_icon">
+                   <i class="fas fa-check-circle"></i>
+                </div>
+
+                <div class="toast_body">
+                    <h3 class="toast_title">Error</h3>
+                    <p class="toast_msg">Máy vi tính kết nối internet(Windows,Ubuntu hoặc MacOS)</p>
+                </div>
+
+                <div class="toast_close">
+                   <i class = "fas fa-times"></i>
+                </div>
+           </div> -->
+        </div>
+
+
+        <div>
+     <div onclick="showSuccessToast();" class="btn btn--success">Show success toast</div>
+    <div onclick="showErrorToast();" class="btn btn--error">Show error toast</div>
+    <div onclick="showWarnToast();" class="btn btn--warn">Show warn toast</div>
+    <div onclick="showInfoToast();" class="btn btn--info">Show info toast</div>
+        </div>
+
+
+<script src="./module.js"></script>
+
+
+
+
+       
+         <!-- thiếu  javascript -->
+    </body>
+ 
+</html>
